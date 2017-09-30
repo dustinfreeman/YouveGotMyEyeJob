@@ -12,8 +12,8 @@ VideoClipImporter:
   frameRange: 0
   startFrame: -1
   endFrame: -1
-  frameCount: 787
-  frameRate: 30
+  frameCount: 789
+  frameRate: 29.977188110351562
   colorSpace: 0
   deinterlace: 0
   sourceFileSize: 26201994
@@ -35,7 +35,7 @@ VideoClipImporter:
       bitrateMode: 1
       spatialQuality: 1
   output:
-    format: 0
+    format: 1
     settings:
       enableTranscoding: 1
       codec: 1
@@ -48,11 +48,11 @@ VideoClipImporter:
     encodedWidth: 810
     encodedHeight: 540
     encodedStartFrame: 0
-    encodedEndFrame: 777
+    encodedEndFrame: 789
     streamedResource:
       source: library/metadata/8b/8b4ca7c49e8f54b9380560f661c3be22.resource
       offset: 0
-      size: 4048026
+      size: 4132329
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,17 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.Video;
+
 
 public class Scripter : MonoBehaviour {
 
 	VideoPlayer player;
     AudioSource source;
+    
 
 	public VideoClip Video1;
 	public VideoClip Video2;
+    int index = 0;
 
-	int index = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -23,9 +26,7 @@ public class Scripter : MonoBehaviour {
 
 //		StartCoroutine(lateStart)
 	}
-
-
-	
+    
 
 	// Update is called once per frame
 	void Update () {
@@ -41,5 +42,7 @@ public class Scripter : MonoBehaviour {
 
 			index++;
 		}
-	}
+
+    }
+
 }
